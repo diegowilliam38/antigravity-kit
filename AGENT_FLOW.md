@@ -1,6 +1,6 @@
 # 🔄 Agent Flow Architecture
 
-> **AG Kit 2026.7.21** — Antigravity-native production workflow documentation
+> **AG Kit 2026.7.26** — Antigravity-native production workflow documentation
 
 ---
 

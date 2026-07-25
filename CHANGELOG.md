@@ -9,7 +9,7 @@ Starting with `2026.5.13`, this project uses calendar versioning in `YYYY.M.D` f
 
 No unreleased changes.
 
-## [2026.7.21] - 2026-07-21
+## [2026.7.26] - 2026-07-26
 
 > Antigravity-native production release: six-phase runtime integration, native tool safety, MCP synchronization, optional plugin packaging, dedicated compatibility CI, and complete operator/release documentation.
 
@@ -26,7 +26,7 @@ No unreleased changes.
 
 ### Changed
 - Google Antigravity is the primary supported production runtime; cross-runtime Markdown portability remains best-effort.
-- Root, CLI, web, lock files, toolkit version, web changelog, manifest, and integrity lock are synchronized at `2026.7.21`.
+- Root, CLI, web, lock files, toolkit version, web changelog, manifest, and integrity lock are synchronized at `2026.7.26`.
 - Managed integrity coverage now includes the Antigravity contract, native hook configuration, hook tooling, schemas, plugin templates, and tests.
 - README documentation now provides complete English and Vietnamese production setup, validation, MCP, plugin, rollback, and support-boundary guidance.
 - Agent flow and toolkit architecture documentation now show the Antigravity runtime boundary and six integration phases.
@@ -352,7 +352,9 @@ No unreleased changes.
 - CLI tool for easy installation and updates.
 - Comprehensive documentation and architecture guide.
 
-[Unreleased]: https://github.com/vudovn/ag-kit/compare/v2026.7.12...HEAD
+[Unreleased]: https://github.com/vudovn/ag-kit/compare/v2026.7.26...HEAD
+[2026.7.26]: https://github.com/vudovn/ag-kit/compare/v2026.7.18...v2026.7.26
+[2026.7.18]: https://github.com/vudovn/ag-kit/compare/v2026.7.12...v2026.7.18
 [2026.7.12]: https://github.com/vudovn/ag-kit/compare/v2026.7.10...v2026.7.12
 [2026.7.10]: https://github.com/vudovn/ag-kit/compare/v2026.6.29...v2026.7.10
 [2026.6.29]: https://github.com/vudovn/ag-kit/compare/v2026.6.23...v2026.6.29

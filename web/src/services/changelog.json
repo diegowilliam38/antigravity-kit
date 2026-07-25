@@ -1,7 +1,7 @@
 [
     {
-        "version": "2026.7.21",
-        "date": "2026-07-21",
+        "version": "2026.7.26",
+        "date": "2026-07-26",
         "summary": "Production candidate for the Antigravity-first runtime: native discovery, MCP planning, safety hooks, orchestration, deterministic plugin packaging, diagnostics, migration guidance, and release gates.",
         "changes": {
             "Added": [
@@ -10,7 +10,7 @@
             ],
             "Changed": [
                 "Google Antigravity is the primary supported runtime for AG Kit.",
-                "Root, CLI, web, and toolkit versions are aligned at 2026.7.21.",
+                "Root, CLI, web, and toolkit versions are aligned at 2026.7.26.",
                 "Plugin inventory generation is deterministic and the managed integrity lock covers runtime and hook files."
             ],
             "Security": [

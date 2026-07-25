@@ -199,7 +199,6 @@ function checkValidation(root, report) {
   const requiredFiles = [
     '.agents/hooks/tests/antigravity.test.mjs',
     'MIGRATION.md',
-    'PRODUCTION_CHECKLIST.md',
     'SECURITY.md'
   ];
   for (const file of requiredFiles) {

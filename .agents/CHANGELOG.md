@@ -1,6 +1,6 @@
 # AG Kit Toolkit Changelog
 
-## 2026.7.21
+## 2026.7.26
 
 ### Added
 
@@ -11,7 +11,7 @@
 
 ### Changed
 
-- Toolkit version advanced from `2026.7.18` to `2026.7.21`.
+- Toolkit version advanced from `2026.7.18` to `2026.7.26`.
 - Google Antigravity is the primary production runtime; other Markdown-compatible tools are best-effort consumers.
 - Component manifest now records Antigravity runtime metadata.
 - Integrity lock now covers `antigravity.json`, `hooks.json`, and the complete `hooks/` runtime-tooling tree.

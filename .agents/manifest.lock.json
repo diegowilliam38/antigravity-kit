@@ -1,10 +1,10 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "9c6cec848758413e1bc41eab584c683b8be146a85bd6c212a08ee53655e832ee",
-    "CHANGELOG.md": "5ea244e700b9440e3cbcaf4fcacff459f70ccd651c3a458c34f9c432a6526bd7",
+    "ARCHITECTURE.md": "d76626492126b02b5562ec8a88bc9fcc5401932c252ede64415c98a1805fa392",
+    "CHANGELOG.md": "3709f1cfbc60bceea5fae3ec5e96da590254df464ac7e8631cf38723bc101203",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
-    "VERSION": "175b595187b82c5f5b0442fe792121fe1085f07c482e6eec55ad0288baabbcab",
+    "VERSION": "7d397333a3fd5a1d3f758ab4fef63fef4e43cfa74feb04ccebd32dd0fa71ade4",
     "agent/backend-specialist.md": "65087ad56011ce55231f2754c3bdbb1c32ee14fa24ae9f389c0a7a67c178f1fd",
     "agent/code-archaeologist.md": "a0c654b885773c425f6a1c3f35ac7a1d509ed32e08a4e2daf373ddc5c6c805f3",
     "agent/database-architect.md": "1649c5ba554eca2674df75c50229cc00463aed1400d3b6d55131d8f4b12f3c76",
@@ -29,7 +29,7 @@
     "hooks.json": "e411748245fd87be9f0f88dea7f987352827900acb615d8ff8271db018605727",
     "hooks/README.md": "9ca1d291ae7fb0f79e60bb3982f3ff4dba488844f4fa833088b710e6b2616e96",
     "hooks/antigravity-contract.schema.json": "b18072ace48ca61e3182fcddfe956240db202bf104ee18bf03800ab9a87b3144",
-    "hooks/antigravity-doctor.mjs": "856e81b9a9170c9947cbe236d58b8d0fcd24c8791ea493ae0718205fa5b5df39",
+    "hooks/antigravity-doctor.mjs": "64d70ac198283b1d1cc5198fccbce181425eb67062776a0d85b1af827e0a797a",
     "hooks/antigravity-hooks.schema.json": "a9857d66a28062177a8bb381d7893674b385aac5b9965529283c18e0e890d62f",
     "hooks/build-plugin.mjs": "1fd229c7441aa2fddcdb9434bb8ada76b6012456c98fa0b8db2bff2a01dfbab4",
     "hooks/plugin/GEMINI.md": "519f5d78c2c4ef4fe8f24eb6a294f603ac6498302633315f6c2b2e2095a64d90",
@@ -220,7 +220,7 @@
     "workflows/test.md": "bd06ae644376e3cc2661f1a623504247445c86a83dfb0df92ed5f0eccdef60ea",
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
-  "kitVersion": "2026.7.21",
-  "manifestSha256": "37df8e52f968caa4d86c8973707e0ef9cf2cc7f09698a99f357fea2e83e5c5f2",
+  "kitVersion": "2026.7.26",
+  "manifestSha256": "165296c38640f39f02caf82b1af2a32b11dccef3d931db723c8d60a99fb3990e",
   "schemaVersion": "1.0.0"
 }

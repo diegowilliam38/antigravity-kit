@@ -1,6 +1,6 @@
 # Migrating to the Antigravity-native release
 
-This guide covers upgrades from AG Kit `2026.7.18` or earlier to `2026.7.21`.
+This guide covers upgrades from AG Kit `2026.7.18` or earlier to `2026.7.26`.
 
 ## What changes
 

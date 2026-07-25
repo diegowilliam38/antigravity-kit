@@ -1,6 +1,6 @@
 # AG Kit Architecture
 
-> Antigravity-native AI Agent Capability Toolkit — 2026.7.21
+> Antigravity-native AI Agent Capability Toolkit — 2026.7.26
 
 ---
 
@@ -16,7 +16,7 @@ AG Kit is a modular Antigravity workspace system consisting of:
 
 ---
 
-## 🔐 Managed Component Registry (2026.7.21)
+## 🔐 Managed Component Registry (2026.7.26)
 
 AG Kit uses dual-track versioning:
 
@@ -89,7 +89,7 @@ optional plugin packaging and production release gates
 | Plugin | `hooks/build-plugin.mjs`, `hooks/plugin/` | Reviewable local bundle with SHA-256 inventory |
 | Validation | Doctor, tests, CI, production checklist | Automated checks plus mandatory hands-on smoke test |
 
-The Antigravity runtime files are included in the managed integrity lock beginning with `2026.7.21`.
+The Antigravity runtime files are included in the managed integrity lock beginning with `2026.7.26`.
 
 ---
 
