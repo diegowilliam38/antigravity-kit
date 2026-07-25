@@ -231,7 +231,15 @@ AG Kit là triển khai mã nguồn mở nguyên bản của các mô hình kỹ
 
 ## Ủng hộ dự án
 
-<a href="https://buymeacoffee.com/vudovn" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" /></a>
+<p align="center">
+  <a href="https://buymeacoffee.com/vudovn" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" /></a>
+</p>
+
+<p align="center"> - hoặc - </p>
+
+<p align="center">
+  <img src="https://img.vietqr.io/image/mbbank-0779440918-compact.jpg" alt="Ủng hộ dự án qua VietQR" width="200" />
+</p>
 
 ## Giấy phép
 
