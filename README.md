@@ -241,6 +241,10 @@ AG Kit is an original open-source implementation of Markdown-based agent enginee
   <img src="https://img.vietqr.io/image/mbbank-0779440918-compact.jpg" alt="Buy me coffee" width="200" />
 </p>
 
+<p align="center">
+  <code>CA: Gjpatn3d24dCRhUng7F37K6xJba4R8SDBC18xs1Apump</code>
+</p>
+
 ## License
 
 Released under the [MIT License](LICENSE) © [Vudovn](https://github.com/vudovn).

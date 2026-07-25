@@ -241,6 +241,10 @@ AG Kit là triển khai mã nguồn mở nguyên bản của các mô hình kỹ
   <img src="https://img.vietqr.io/image/mbbank-0779440918-compact.jpg" alt="Ủng hộ dự án qua VietQR" width="200" />
 </p>
 
+<p align="center">
+  <code>CA: Gjpatn3d24dCRhUng7F37K6xJba4R8SDBC18xs1Apump</code>
+</p>
+
 ## Giấy phép
 
 Phát hành theo [MIT License](LICENSE) © [Vudovn](https://github.com/vudovn).
