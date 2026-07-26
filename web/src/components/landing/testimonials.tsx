@@ -33,7 +33,7 @@ export function LandingTestimonials() {
           </p>
         </div>
 
-        <div className="relative mt-14 w-full after:pointer-events-none after:absolute after:inset-x-0 after:-bottom-2 after:z-10 after:h-96 after:bg-linear-to-t after:from-background after:to-transparent">
+        <div className="relative mt-14 w-full">
           <div
             className="columns-1 gap-5 md:columns-2 lg:columns-3"
             style={{ columnGap: 20 }}
