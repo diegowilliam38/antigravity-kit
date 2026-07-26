@@ -17,7 +17,7 @@ export function LandingHero() {
         <div className="space-y-8 text-center">
           <h1 className="mx-auto max-w-screen-md text-4xl font-bold tracking-tight md:text-6xl">
             {hero.title}{" "}
-            <span className="bg-gradient-to-r from-brand to-teal-300 bg-clip-text text-transparent">
+            <span className="text-brand">
               AG Kit
             </span>
           </h1>

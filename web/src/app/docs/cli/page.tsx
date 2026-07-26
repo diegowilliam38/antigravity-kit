@@ -88,6 +88,31 @@ export default function CLIPage() {
                         </div>
                     </div>
 
+                    {/* rollback */}
+                    <div>
+                        <h3 className="text-xl font-semibold text-foreground mb-3">
+                            <code className="font-mono">ag-kit rollback</code>
+                        </h3>
+                        <p className="text-base text-muted-foreground mb-4">
+                            {t.cliPage.rollbackDesc}
+                        </p>
+
+                        <div className="relative group mb-4">
+                            <pre className="p-4 rounded-lg bg-code overflow-x-auto border border-code-border font-mono text-sm">
+                                <code className="text-code-foreground">ag-kit rollback</code>
+                            </pre>
+                        </div>
+
+                        <div className="p-4 rounded-lg border border-border bg-muted/50">
+                            <div className="text-sm font-semibold text-foreground mb-2">{t.cliPage.behaviorTitle}</div>
+                            <ul className="text-sm text-muted-foreground space-y-1">
+                                <li>• {t.cliPage.rollbackBehavior1}</li>
+                                <li>• {t.cliPage.rollbackBehavior2}</li>
+                                <li>• {t.cliPage.rollbackBehavior3}</li>
+                            </ul>
+                        </div>
+                    </div>
+
                     {/* status */}
                     <div>
                         <h3 className="text-xl font-semibold text-foreground mb-3">
@@ -175,6 +200,30 @@ export default function CLIPage() {
                                     {t.cliPage.optDryRunA}<code className="px-1 py-0.5 rounded bg-muted font-mono text-xs">init</code>{t.cliPage.optDryRunB}<code className="px-1 py-0.5 rounded bg-muted font-mono text-xs">update</code>{t.cliPage.optDryRunC}
                                 </td>
                             </tr>
+                            <tr>
+                                <td className="py-3 px-4">
+                                    <code className="font-mono text-foreground">--strategy &lt;merge|replace&gt;</code>
+                                </td>
+                                <td className="py-3 px-4 text-muted-foreground">
+                                    {t.cliPage.optStrategyDesc}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="py-3 px-4">
+                                    <code className="font-mono text-foreground">--no-backup</code>
+                                </td>
+                                <td className="py-3 px-4 text-muted-foreground">
+                                    {t.cliPage.optNoBackupDesc}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="py-3 px-4">
+                                    <code className="font-mono text-foreground">--conflict-report &lt;file&gt;</code>
+                                </td>
+                                <td className="py-3 px-4 text-muted-foreground">
+                                    {t.cliPage.optConflictReportDesc}
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -227,6 +276,39 @@ export default function CLIPage() {
                         <div className="relative group">
                             <pre className="p-4 rounded-lg bg-code overflow-x-auto border border-code-border font-mono text-sm">
                                 <code className="text-code-foreground">ag-kit init --quiet --force</code>
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-base font-semibold text-foreground mb-2">
+                            {t.cliPage.exPreviewUpdate}
+                        </h3>
+                        <div className="relative group">
+                            <pre className="p-4 rounded-lg bg-code overflow-x-auto border border-code-border font-mono text-sm">
+                                <code className="text-code-foreground">ag-kit update --dry-run</code>
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-base font-semibold text-foreground mb-2">
+                            {t.cliPage.exReplace}
+                        </h3>
+                        <div className="relative group">
+                            <pre className="p-4 rounded-lg bg-code overflow-x-auto border border-code-border font-mono text-sm">
+                                <code className="text-code-foreground">ag-kit update --strategy replace</code>
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-base font-semibold text-foreground mb-2">
+                            {t.cliPage.exRollbackLatest}
+                        </h3>
+                        <div className="relative group">
+                            <pre className="p-4 rounded-lg bg-code overflow-x-auto border border-code-border font-mono text-sm">
+                                <code className="text-code-foreground">ag-kit rollback</code>
                             </pre>
                         </div>
                     </div>
